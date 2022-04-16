@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* PCファーストの設定です */
+body{
+font-family: TsukuARdGothic-regular;
+/* margin: 10% 0; */
+
+color: #633812;
+}
+
+header{
+width: 100%;
+text-align: center;
+}
+.sushi{
+    max-width: 100%;
+}
+.sushi img{
+   max-width: 101px;
+}
+
+/* メイン */
+
+h1{
+    text-align: center;
+    }
+    
+    
+/* テキスト */
+.news p{
+    font-size: 18px; 
+    margin: 20px;
+    margin-left: 10%;
+    text-align: left;
+
+}
+
+
+/* サインの設定 */
+path{
+    margin: 20px 10%;
+ /* text-align: right; */
+}
+
+svg{
+    max-width: 100px;
+    color: #633812;
+}
+
+.st0{
+    fill:#481A1A;
+}
+
+.vec_img{
+max-width: 100px;
+margin:0% 5%;
+max-width: 100px;
+margin-left: auto;
+}
+
+/* サインの設定ここまで */
+
+
+
+/* スマホの表示設定 */
+@media screen and (max-width: 768px ){
+
+
+    .news p{
+        font-size: 14px;
+        margin: 20px 10%;
+        text-align: left;
+        line-height: normal;
+    }
+    
+    .last-sign p{
+font-size: 18px;
+    }
+
+
+svg{
+    max-width: 60px;
+text-align: right;
+
+}
+.sushi img{
+
+    /* max-width: 50%; */
+}
+}
+
+/* タブレットの表示設定 */
+@media screen and(max-width:1023px ) {
+ 
+.news p{
+    font-size: 16px; 
+    margin: 20px;
+    margin-left: 5%;
+    text-align: left;
+
+}   
+
+}
+    
+
+
+/* @media screen and (min-widtn: 1024px ){} */
+
