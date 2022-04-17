@@ -30,9 +30,6 @@ h1{
 .news p{
     font-size: 18px; 
     margin: 20px 10%;
-    margin-top:10px;
-    
-    text-align: left;
     line-height: 30px;
 
 }
@@ -71,22 +68,20 @@ margin-left: auto;
         }
 
     .news p{
-        font-size: 18px;
+        font-size: 15px;
         margin: 25px 15%;
         text-align: left;
         line-height: 30px;
     }
     
+    .last-sign p{
+font-size: 18px;
+    }
+
 
 svg{
     max-width: 60px;
 text-align: right;
 
 }
-
 }
-    
-
-
-/* @media screen and (min-widtn: 1024px ){} */
-
