@@ -66,9 +66,10 @@ margin-left: auto;
     body{
         font-family:initial
         }
-
+h1{
+ font-size: 24px;   
+}
     .news p{
-            font-size: 18px; 
         margin: 25px 15%;
         text-align: left;
         line-height: 30px;
