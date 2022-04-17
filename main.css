@@ -33,6 +33,7 @@ h1{
     /* margin-left: 10%; */
     text-align: left;
 
+
 }
 
 
@@ -70,9 +71,9 @@ margin-left: auto;
 
     .news p{
         font-size: 15px;
-        margin: 25px 10%;
+        margin: 25px 15%;
         text-align: left;
-        line-height: normal;
+        line-height: 30px;
     }
     
     .last-sign p{
