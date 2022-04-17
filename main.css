@@ -71,33 +71,18 @@ margin-left: auto;
         }
 
     .news p{
-        font-size: 15px;
+        font-size: 18px;
         margin: 25px 15%;
         text-align: left;
         line-height: 30px;
     }
     
-    .last-sign p{
-font-size: 18px;
-    }
-
 
 svg{
     max-width: 60px;
 text-align: right;
 
 }
-
-/* タブレットの表示設定 */
-@media screen and(max-width:1023px ) {
- 
-.news p{
-    font-size: 16px; 
-    margin: 25px 15%;
-    margin-left: 5%;
-    text-align: left;
-    line-height: 30px;
-}   
 
 }
     
